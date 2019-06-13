@@ -1,0 +1,43 @@
+1 config.ini file
+
+setup the data path
+model path
+input filename
+====================
+2 config.py
+====================
+
+3 Utils.py
+	
+function - load data 
+	read the file
+
+Unique combination need to be here
+==================================
+
+4 Train .py
+
+Function Train
+	1 load data
+	2 Unique combinations ----- a function call it from utils
+	3 Build model function ------ train 300 (2 - 0ne with date one with count)
+	4 pickel name as combinations  -------- PMPARIMA  - 24 Pickle files --- Debolina
+			
+=============
+
+5 forecast.py  - output CSV
+	Forecasting method - read the pickle files and give it in SIngle CSV file
+			outcome - region, state, sku, future_forecast (last 7 days of data and future 7)
+	Default method fuction -all the combinations
+==========
+
+
+requirements.txt -- for libraries
+
+
+
+
+
+
+
+
